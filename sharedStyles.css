@@ -1,0 +1,85 @@
+html, body {
+    width: auto;
+    height: 100%;
+}
+
+.mainBody {
+    background-attachment: fixed;
+    background-image: url("");
+    background-size: 120% 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#homeBody {
+    background-image: url("");
+}
+
+#timelineBody {
+    background-image: url("");
+}
+
+#placesBody {
+    background-image: url("");
+}
+
+#charactersBody {
+    background-image: url("");
+}
+
+    .mainTitle {
+        font-size: 400%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mainNavBar {
+        width: 40%;
+        height: 6%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .navBar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            background-color: rgb(104, 104, 104);
+        }
+
+            .navBarOption {
+                padding-top: 1.5%;
+                padding-bottom: 1.5%;
+                padding-left: 6%;
+                padding-right: 6%;
+                margin: auto;
+                text-align: center;
+                font-size: large;
+                background-color: darkgray;
+            }
+
+
+    .pageMain {
+        width: 90%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+            
+
+.footer {
+    align-content:center;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 10%;
+}
+    .footerCredit, .lastUpdate {
+        text-align: right;
+        font-size: 1vw;
+    }

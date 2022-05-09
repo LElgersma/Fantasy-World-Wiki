@@ -1,0 +1,98 @@
+    .pageTitle {
+        font-size: xx-large;
+        margin-left: 1%;
+    }
+
+    .sideInfoBox {
+        margin-left: 60%;
+        border: 1px solid black;
+        width: 25%;
+        position: absolute;
+        background-color: antiquewhite;
+    }
+
+        .imageBox {
+            margin: 0%;
+        }
+
+            .mainImage {
+                width: 0%;
+            }
+
+                .mainImageThumbnail {
+                    height: 100%;
+                    width: 100%;
+                }
+            
+            .imageCaption {
+                text-align: center;
+            }
+        
+        .sideInfo {
+            
+        }
+
+            .sideInfoTitle {
+                display: flex;
+                text-align: left;
+            }
+
+            .sideInfoSection {
+                display: flex;
+                text-align: right;
+            }
+
+            .sideInfoSectionTitle {
+                display: flex;
+                text-align: left;
+            }
+
+            .sideInfoSectionText {
+                display: flex;
+                text-align: right;
+            }
+
+.tableOfContents {
+    border: 1px solid black;
+    width: 25%;
+    margin-left: 5%;
+
+}
+
+    .toc-title {
+        font-size: large;
+        border: 1px solid black;
+        text-align: center;
+    }
+
+        .toc-title h2 {
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2.5%;
+            margin-bottom: 2.5%;
+        }
+
+    .toc-item-list {
+        width: 100%;
+    }
+
+    .infoSectionHeader {
+        margin-left: 1.5%;
+    }
+
+    .infoSubSectionHeader {
+        margin-left: 2%;
+    }
+
+    .infoSSubSectionHeader {
+        margin-left: 3%;
+    }
+
+    .infoSegment p, .generalInformation p {
+        margin-left: 3.5%;
+    }
+
+    .annotationText {
+        
+    }
